@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8465418148799718913
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8465418148799718919}
+  - component: {fileID: 8465418148799718912}
+  m_Layer: 0
+  m_Name: InvenSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8465418148799718919
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8465418148799718913}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1031.216, y: 502.3039, z: 0.49565935}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8465418148799718912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8465418148799718913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c541f262d63513649b2b4aa495f0e78d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemPrefabs:
+  - {fileID: 7934724709191550033, guid: 734b9790ef4667e4093403a7be55dc0e, type: 3}
+  - {fileID: 7934724709191550033, guid: ee41ec3955357dc4ba464a13f2ef7f82, type: 3}
+  - {fileID: 5172025687418064340, guid: 2219286fb11db83459d28ca4f640b57e, type: 3}
+  - {fileID: 1123795224908077886, guid: e526b99667648804e8c9b4f974b0d369, type: 3}
+  - {fileID: 8797012563088120937, guid: 1c105f08657da1b449674e3969bb7a11, type: 3}
+  FieldBackPack: {fileID: 0}
+  FieldBackPackSpace: []
+  backPack: {fileID: 0}
+  backPackSpace: []
+  storage: {fileID: 0}
+  storageSpace: []
+  quickslot: {fileID: 0}
+  quickslotSpace: []
+  Equipment_Slot: {fileID: 0}
+  EquipmentSpace: []
+  itemprefab: {fileID: 7934724709191550033, guid: 734b9790ef4667e4093403a7be55dc0e, type: 3}
+  _items: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  hideOut: 0
+  pan: {fileID: 0}
+  BPIMG: {fileID: 0}

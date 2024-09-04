@@ -1,0 +1,46 @@
+{
+    "name": "VRInputActions",
+    "maps": [
+        {
+            "name": "New action map",
+            "id": "9603783f-24cd-49e3-8501-3cb684797d2b",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "340a9645-cd35-463f-bb5e-fd0567b96e49",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "07618661-bb1f-42dd-94ea-7fa5f9ea9a5a",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "VR",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "VR",
+            "bindingGroup": "VR",
+            "devices": [
+                {
+                    "devicePath": "<XRController>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
